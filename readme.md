@@ -26,7 +26,7 @@
 
 2. کتابخانه‌های مورد نیاز را نصب کنید:
 
-    bash
+    ```bash
 
 pip install python-telegram-bot textblob
 
@@ -34,7 +34,7 @@ pip install python-telegram-bot textblob
 
 TextBlob برای عملکرد بهینه به داده‌های زبانی نیاز دارد. این داده‌ها را می‌توانید با دستور زیر دانلود کنید:
 
-bash
+```bash
 
 python -m textblob.download_corpora
 
@@ -46,7 +46,7 @@ python -m textblob.download_corpora
 
 پس از تنظیم توکن، می‌توانید با اجرای دستور زیر ربات را راه‌اندازی کنید:
 
-bash
+```bash
 
     python3 main.py
 
